@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ccd7ea;
+    font-size: 350%;
+    text-shadow: 2px 2px #a2abbc;
+    line-height: .9;
+}
+
+.btn {
+    font-size: 200%;
+    line-height: .5;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    color: #f7cb3b;
+    border: 2px solid #f7cb3b;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    vertical-align: bottom;
+    line-height: 20;
+}
