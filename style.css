@@ -25,7 +25,8 @@ html, body {
 
 .content h1 {
     font-family: 'Open Sans', sans-serif;
-    color: #30D5C8;
+    /* color: #30D5C8; */
+    color: #98FF98;
     font-size: 350%;
     text-shadow: 2px 2px #a2abbc;
     line-height: .9;
